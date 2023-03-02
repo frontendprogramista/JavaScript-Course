@@ -10,4 +10,8 @@ let slide1 = document.querySelector('#slide1');
 let slide2 = document.querySelector('#slide2');
 let slide3 = document.querySelector('#slide3');
 
-dot2.addEventListener('click');
+
+let showSlide2 = () => {
+    console.log(slide2.classList);
+};
+dot2.addEventListener('click', showSlide2);
