@@ -14,5 +14,10 @@ let isBiggerThan10 = (number) => {
 if(number > 10) {
     console.log('number is bigger than 10');
 }
+
+else {
+    console.log('number is not bigger than 10');
+}
 };
 isBiggerThan10(12);
+isBiggerThan10(5);
